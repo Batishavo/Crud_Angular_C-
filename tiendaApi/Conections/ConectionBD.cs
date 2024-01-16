@@ -1,11 +1,11 @@
 ﻿namespace tiendaApi.Conections
 {
-    public class CobectionBD
+    public class ConectionBD
     {
         private string connectionString = string.Empty;
 
         /*Builder*/
-        public CobectionBD()
+        public ConectionBD()
         {
             var builder = new ConfigurationBuilder().SetBasePath
                 (Directory.GetCurrentDirectory()).AddJsonFile
